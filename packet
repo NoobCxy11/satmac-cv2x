@@ -1,0 +1,14 @@
+cplusplus {{
+#include <vector>
+#include "SatmacCommon.h"
+typedef std::vector<SlotTagForSending> SlotTag;
+}}
+
+
+class noncobject SlotTag;
+
+packet SatmacPacket {
+    int frameLength;
+    int globleSti;
+    SlotTag slotTag;
+}
