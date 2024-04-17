@@ -1,0 +1,7 @@
+<launch>
+  <basedir path="/home/cxy/simulations/100cars"/>
+  <copy file="map.net.xml"/>
+  <copy file="100cars.rou.xml"/>
+  <copy file="map.poly.xml" />
+  <copy file="map.sumo.cfg" type="config"/>
+</launch>
